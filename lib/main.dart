@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: SplashScreen(),
       routes: <String, WidgetBuilder>{
-        '/MoviesList': (BuildContext context) => new MoviesList()
+        '/MoviesList': (BuildContext context) => MoviesList()
       },
     );
   }
